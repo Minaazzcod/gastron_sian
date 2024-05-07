@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.link_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+}
+.link_box a {
+    width:300px;
+    margin:0 15px;
+    font-size: 30px;
+    font-weight: 900;
+    color:#fff;
+    line-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-align: center;
+}
+.link_box a:hover {
+    opacity: .8;
+}
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 9999;
+}
+.header .h_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    max-width:1300px;
+    height:100px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+.header .logo {
+    width:165px;
+    height:40px;
+}
+.header .logo a {
+    display: block;
+    width:100%;
+    height:100%;
+    font-size: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/common/logo_color.png');
+    transition: .3s;
+}
+.header .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .nav ul a {
+    display: block;
+    margin: 0 40px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .3s;
+}
+.header .option_menu {
+    display: flex;
+    align-items: center;
+}
+.header .option_menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:98px;
+    height:43px;
+    margin: 0 8px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #000000;
+    transition: .3s;
+}
+.header .option_menu .small_txt {
+    font-size: 14px;
+    line-height: 1.2;
+}
+.header .option_menu .language_txt {
+    font-size: 18px;
+}
+.fp-viewing-firstPage .header .nav ul a {
+    color:#fff;
+}
+.fp-viewing-firstPage .header .option_menu a {
+    color:#fff;
+    border-color: #fff;
+}
+.fp-viewing-thirdPage .header .logo a {
+    background-image: url('../images/common/logo_white.png');
+}
+.fp-viewing-thirdPage .header .nav ul a {
+    color:#fff;
+}
+.fp-viewing-thirdPage .header .option_menu a {
+    color:#fff;
+    border-color: #fff;
+}
+
+/* main */
+.fp-tableCell {
+    display: flex;
+    align-items: center;
+}
+.section_inner {
+    width:100%;
+    height:100%;
+}
+.section_inner img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.video_area {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
