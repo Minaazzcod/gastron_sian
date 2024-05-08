@@ -141,7 +141,7 @@
     bottom:60px;
     left:50%;
     transform: translateX(-50%);
-    z-index: 97;
+    z-index: 99;
 }
 #section02 .section_inner img {
     object-position: bottom;
