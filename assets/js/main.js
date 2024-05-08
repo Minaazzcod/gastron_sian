@@ -4,7 +4,7 @@
 		scrollingSpeed: 1200,
 		recordHistory: false,
 		// anchors: ["page1", "page2", "page3", "page4", "page5"],
-		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'lastPage'],
 		// afterLoad: (anchorLink, index) => {
 		// 	$('.header').removeClass('h_style01 h_style02')
 
