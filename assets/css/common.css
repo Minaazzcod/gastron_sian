@@ -130,3 +130,10 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
+
+#section02 .section_inner img {
+    object-position: bottom;
+}
+#section03 .section_inner img {
+    object-position: top;
+}
