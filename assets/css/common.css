@@ -144,10 +144,10 @@
     z-index: 99;
 }
 #section02 .section_inner img {
-    object-position: bottom;
+    /* object-position: bottom; */
 }
 #section03 .section_inner img {
-    object-position: top;
+    /* object-position: top; */
 }
 #section06 .section_inner img {
     height:auto;
